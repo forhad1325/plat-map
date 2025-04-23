@@ -1,0 +1,40 @@
+.plat_map_options {
+    display: flex;
+    gap: 20px;
+}
+.plat_map_image {
+    width: 60%;
+}
+.property_query_items{
+    width: 40%;
+}
+.property_query_items input {
+    max-width: 50px;
+}
+
+#plat_map_image_preview {
+    position: relative;
+}
+.plat-map-pin {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: all;
+    width: 4%;
+}
+.plat-map-pin img {
+    width: 100%;
+    height: auto;
+}
+.plat-map-tooltip {
+    position: absolute;
+    background: #222;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 9999;
+    white-space: nowrap;
+    display: none;
+}
+
